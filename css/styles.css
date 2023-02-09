@@ -1,0 +1,320 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      font-family: Arial, serif;
+      background: url('../images/bg.png') center/cover;
+}
+
+.header {
+      padding: 30px 0;
+      background-color: rgb(2, 3, 3);
+}
+
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+}
+
+.header .container,
+.main .container,
+.footer .container {
+      font-size: 0;
+}
+
+.logo {
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer;
+}
+
+.menu {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 251px;
+}
+
+.menu-item {
+      padding: 0 30px;
+      display: inline-block;
+      vertical-align: middle;
+}
+
+.menu-item a {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 1.2;
+      color: rgb(253, 239, 213);
+      cursor: pointer;
+}
+
+.menu-item a:hover {
+      color: rgb(255, 175, 24);
+      border-bottom: 2px solid rgb(255, 175, 24);
+}
+
+.main {
+      padding: 132px 0 80px;
+      background-color: rgb(2, 3, 3);
+}
+
+.main-info {
+      max-width: 586px;
+      display: inline-block;
+      vertical-align: top;
+}
+
+.main-title {
+      font-size: 45px;
+      line-height: 1.222;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+}
+
+.main-title-highlight {
+      color: rgb(255, 175, 24);
+}
+
+.main-info-pros {
+      padding: 74px 0 92px;
+}
+
+.main-info-pro {
+      display: inline-block;
+      vertical-align: middle;
+}
+
+.main-info-pro.tuna {
+      margin-right: 50px;
+}
+
+.main-info-pro.sushi {
+      margin-left: 50px;
+}
+
+.main-info-pro-image {
+      display: inline-block;
+      vertical-align: middle;
+}
+
+.main-info-pro-text {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 16px;
+      line-height: 1.5;
+      color: rgb(255, 255, 255);
+}
+
+.main-info-pro-text.tuna,
+.main-info-pro-text.sushi {
+      margin-left: 11px;
+}
+
+.button {
+      display: inline-block;
+      font-size: 16px;
+      color: rgb(2, 3, 3);
+      font-weight: bold;
+      background-color: rgb(255, 175, 24);
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+}
+
+.button:hover {
+      filter: drop-shadow(0px 3px 7.5px rgba(152,152,152,0.2));
+}
+
+.button.main-button {
+      width: 224px;
+      padding: 22px;
+      border-radius: 30px;
+}
+
+.main-image {
+      display: inline-block;
+      padding-top: 45px;
+}
+
+.choose {
+      padding: 120px 0 108px;
+      background-color: rgb(2, 3, 3);
+}
+
+.title {
+      font-size: 35px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+}
+
+.choose-title {
+      line-height: 1.571;
+      text-align: center;
+}
+
+.choose-cards {
+      margin-top: 48px;
+      font-size: 0;
+      margin-left: -12px;
+      margin-right: -12px;
+}
+
+.choose-card {
+      display: inline-block;
+      vertical-align: middle;
+      width: 282px;
+      min-height: 354px;
+      padding: 10px 0 15px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+      margin: 12px;
+      outline: transparent 5px solid ;
+      outline-offset: -5px;
+}
+
+.choose-card:first-of-type,
+.choose-card:last-of-type {
+      outline: rgb(237, 155, 0) 5px solid ;
+      outline-offset: -5px;
+}
+
+.choose-card:hover {
+      box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.choose-card-image {
+      width: 200px;
+      margin: 0 41px 30px;
+}
+
+.choose-card-info-title {
+      font-size: 18px;
+      color: rgb(24, 26, 26);
+      font-weight: bold;
+      line-height: 3.056;
+      text-align: center;
+}
+
+.choose-card-info-text {
+      min-height: 54px;
+      font-size: 14px;
+      color: rgb(24, 26, 26);
+      line-height: 1.286;
+      text-align: center;
+      margin: 17px 20px 15px;
+}
+
+.choose-card-action {
+      text-align: center;
+}
+
+.button.choose-card-button {
+      width: 242px;
+      padding: 17px;
+      border-radius: 25px;
+}
+
+.about {
+      padding: 96px 0 47px;
+      background-color: rgb(2, 3, 3);
+}
+
+.about-container {
+      font-size: 0;
+      margin-left: -24px;
+      margin-right: -24px;
+}
+
+.about-info {
+      max-width: 384px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 24px;
+}
+
+.about-title {
+      line-height: 1.286;
+}
+
+.about-text {
+      margin-top: 71px;
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+      line-height: 1.5;
+}
+
+.about-subtitle {
+      margin-top: 103px;
+      font-size: 25px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      line-height: 1.4;
+}
+
+.about-links {
+      margin-top: 20px;
+      font-size: 0;
+      margin-left: -20px;
+      margin-right: -20px;
+}
+
+.about-links a {
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background-color: rgb(255, 255, 255);
+      margin: 20px;
+      text-align: center;
+      line-height: 55px;
+}
+
+.about-links a:visited {
+      background-color: rgb(190, 190, 190);
+}
+
+.about-links a:hover {
+      box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.about-links a:active {
+      background-color: rgb(255, 175, 24);
+      box-shadow: none;
+}
+
+.about-links a img {
+      vertical-align: middle;
+}
+
+.about-image {
+      display: inline-block;
+      padding-top: 115px;
+      margin: 24px;
+}
+
+.footer {
+      padding: 30px 0;
+      background-color: rgb(0, 0, 0);;
+}
+
+.rights {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 12px;
+      color: rgb(44, 44, 44);
+      line-height: 1.2;
+      margin-left: 390px;
+}
+
+
+
+
+
+
+
